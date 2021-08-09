@@ -76,8 +76,8 @@ public class Flight implements Comparable<Flight> {
 			return getFlightNumber().compareTo(flight.getFlightNumber());
 		}
 		return getDepartureTime().compareTo(flight.getDepartureTime());
-		
 	}
+	
 	@Override
 	public String toString() {
 		return "Flight [id=" + id + ", flightNumber=" + flightNumber + ", airline=" + airline + ", departureCity="

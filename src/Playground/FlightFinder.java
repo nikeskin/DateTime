@@ -34,8 +34,6 @@ public class FlightFinder {
                    LocalDate localDate = LocalDate.of(year, month, dayOfMonth);
                    LocalTime localTimeDepartureStart = LocalTime.of(preferredDepartureStartHour, 00);
                    LocalTime localTimeDepartureEnd = LocalTime.of(preferredDepartureEndHour, 00);
-                   ZonedDateTime zonedDepartureDateTimeStart = ZonedDateTime.of(localDate, localTimeDepartureStart, ZoneId.of(departureCityTimeZone));
-                   ZonedDateTime zonedDepartureDateTimeEnd = ZonedDateTime.of(localDate, localTimeDepartureEnd, ZoneId.of(departureCityTimeZone));
                    // System.out.println(zonedDepartureDateTimeStart);
                    // System.out.println(zonedDepartureDateTimeEnd);
 
